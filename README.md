@@ -2,7 +2,7 @@ microsite
 ---------
 Personal micro home page template. Runs on Github Pages, built on Material Design Lite.
 
-![screenshot](screenshots/ss-microsite.png)
+![screenshot](ss-microsite.png)
 
 ## How?
 - Fork the repo.
