@@ -1,5 +1,2 @@
-node_modules
-public
-bower_components
 *.log
-.publish
+bower_components
