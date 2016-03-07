@@ -1,0 +1,32 @@
+{
+  "name": "microsite",
+  "homepage": "https://github.com/dbtek/microsite",
+  "authors": [
+    "İsmail Demirbilek <ce.demirbilek@gmail.com>"
+  ],
+  "description": "Simple web site for personal landing pages.",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "microsite",
+    "web",
+    "personal",
+    "home",
+    "page",
+    "material",
+    "design"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.1.2"
+  }
+}

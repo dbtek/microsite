@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="initial-scale=1">
+  </head>
+  <body>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Microsite</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a id="twitter" class="mdl-navigation__link" href="#">
+              <object type="image/svg+xml" class="icon" data="assets/images/twitter.svg"></object>
+            </a>
+            <a id="linkedin" class="mdl-navigation__link" href="#">
+              <object type="image/svg+xml" class="icon" data="assets/images/linkedin.svg"></object>
+            </a>
+            <div class="mdl-tooltip" for="twitter">Follow on twitter</div>
+            <div class="mdl-tooltip" for="linkedin">Follow on Linkedin</div>
+          </nav>
+        </div>
+      </header>
+      <div class="header mdl-layout__content" style="height: 300px;">
+        <img class="avatar mdl-shadow--2dp" src="assets/images/avatar.png">
+      </div>
+    </div>
+
+    <div class="mdl-layout mdl-js-layout">
+      <div class="mdl-layout__content">
+        <div class="text-content">
+          <div class="text-card mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Welcome</h2>
+            </div>
+            <div class="mdl-card__supporting-text" style="min-height: 150px;">
+              Hi, I'm microsite. Fork me on <a href="https://github.com/dbtek/microsite">Github</a>.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/dbtek/microsite">
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="http://foralabs.com" id="promote">
+        <img src="http://foralabs.com/images/logo-xs.png">
+      </a>
+      <div class="mdl-tooltip" for="promote">Engineered with <span class="material-icons" style="color: #F06292">favorite_border</span> at Fora Labs.</div>
+    </footer>
+
+    <script src="bower_components/material-design-lite/material.min.css" type="text/javascript" charset="utf-8" async defer></script>
+  </body>
+</html>
