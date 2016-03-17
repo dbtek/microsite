@@ -11,3 +11,5 @@ Personal micro home page template. Runs on Github Pages, built on Material Desig
 
 ## Author
 İsmail Demirbilek - [@dbtek](https://twitter.com/dbtek)
+
+Background image source: [drwallpaper.com](http://drwallpaper.com)
