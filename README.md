@@ -6,7 +6,8 @@ Personal micro home page template. Runs on Github Pages, built on Material Desig
 
 ## How?
 - Fork the repo.
-- That's it. Enjoy!
+- Rename repo as USERNAME.github.io
+- That's it, web site is published at USERNAME.github.io. Enjoy!
 
 ## Author
 İsmail Demirbilek - [@dbtek](https://twitter.com/dbtek)
